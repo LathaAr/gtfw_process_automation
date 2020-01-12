@@ -2,9 +2,11 @@
 
 ### Description
 
-gtfw_process_automation.py, is a python script implemented to automate the process of execution, to analyze log, generate and report status in excel sheet and also send email with report and log attachment.  this can be used to analyze features functioning on different platforms of Gateways with each releases.
+gtfw_process_automation.py, is a python script implemented to automate the process of execution, to analyze log, generate and report status in excel sheet and also send email with report and log attachment. 
 
-### Installation
+This can be used to analyze features functioning on different platforms of Gateways with each releases.
+
+### Modules Installed
 
 xlsxwriter  - creating Excel XLSX files
 
@@ -12,14 +14,14 @@ openpyxl  - read/write Excel 2010 xlsx files
 
 smtplib - Secure SMTP 
 
-### Implemented below file
+### Implemented below script
 
 - gtfwe_process_automation.py 
 
 ### Implemented following steps in gtfwe_process_automation.py :
 
 - Implement test scripts in python which generates log in text format (Pre-condition)
-- Cron job is scheduled to trigger daily execution of test scripts (Pre-condition)
+- Schedule cron job to trigger daily execution of test scripts (Pre-condition)
   - crontab -e
 
 ```bash
@@ -63,9 +65,9 @@ AuthPass=*******
 
 ```
 
-- Execute test scripts present under function dir
+- Executes test scripts exists under function directory
 
-- Creates folder, if folders are not exists already
+- Creates below folder structure, if folders doesn't exists already
 
 ```bash
 ├── Analysis
@@ -75,13 +77,15 @@ AuthPass=*******
 │       └── Indivisual_Reports   (all created indivisual excel report saves here)
 ```
 
-- Generates execution log with current date and time
-- Analyses those generated logs and create excel reports
-- Creates 2 excel status reports
-  - Creates Individual status excel with enter analyzed data
-  - Creates collective status excel with enter analyzed data in appended format
+- Generates all tests execution log with current date and time
 
-- Send email with attached generated log and excels status report
+- Analyses the generated log and creates status reports in excel sheet
+
+- Creates 2 excel status reports
+  - Individual status report with analyzed data
+  - Collective status report with analyzed data in appended format
+
+- Send email with attachment as execution log and excel status reports
 
 ```bash
 ├── Analysis
@@ -96,6 +100,6 @@ AuthPass=*******
            ├── gtfwe_status_05_11_2019_05_30_02.xlsx
 ```
 
-- Check image as email attachment with log and excel reports
+- Sample image as email attachment with log and excel status reports
 
 ![email_attachment_image](./gtfw_process_automation/email_attched_with_log_excel_reports.png)
