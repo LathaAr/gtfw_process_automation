@@ -98,4 +98,4 @@ AuthPass=*******
 
 - Check image as email attachment with log and excel reports
 
-![email_attachment_image](/home/latha/Desktop/gtfw_process_automation/email_attched_with_log_excel_reports.png)
+![email_attachment_image](./gtfw_process_automation/email_attched_with_log_excel_reports.png)
