@@ -2,7 +2,7 @@
 
 ### Description
 
-gtfw_process_automation.py , is a python script implemented to automate the process of execution, analyze log, generate excel status reports and send email with report attachment to analyze functionalities working on different platforms of Gateways with different releases.
+gtfw_process_automation.py, is a python script implemented to automate the process of execution, to analyze log, generate and report status in excel sheet and also send email with report and log attachment.  this can be used to analyze features functioning on different platforms of Gateways with each releases.
 
 ### Installation
 
