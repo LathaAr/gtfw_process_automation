@@ -1,0 +1,965 @@
+Testscripts: SDK_312_iop_upgrade.py
+TAP version 13
+not ok 1 __main__.iop_upgrade_tests.test_iop_upgrade
+# [32m2019-11-01 05:30:04[0m:[1;30mINFO[0m:[34miop_upgrade_test[0m:setup initialized
+# [32m2019-11-01 05:30:04[0m:[1;30mINFO[0m:[34miop_upgrade_test[0m:Gw is reachable
+# get_latest_sw_ver: http://iopsys:10pF1rmwar3@download.iopsys.eu/iopsys/firmware/NIGHTLY/IOP4/NORRLAND 
+# Latest Software version: NORRLAND-X-IOPSYS-4.4.0ALPHA5-191031_0641.y3 
+# [32m2019-11-01 05:30:04[0m:[1;30mINFO[0m:[34miop_upgrade_test[0m:Software download url: http://iopsys:10pF1rmwar3@download.iopsys.eu/iopsys/firmware/NIGHTLY/IOP4/NORRLAND/NORRLAND-X-IOPSYS-4.4.0ALPHA5-191031_0641.y3 
+# [32m2019-11-01 05:30:04[0m:[1;30mINFO[0m:[34miop_upgrade_test[0m:ping -c 1 -w 1 software.inteno.se
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "SDK_312_iop_upgrade.py", line 70, in test_iop_upgrade
+          self.assertTrue(ping_status, "Failed to ping software.inteno.se")
+      AssertionError: None is not true : Failed to ping software.inteno.se
+  ...
+1..1
+
+Testscripts: SDK_100_sysupgrade_support.py
+TAP version 13
+not ok 1 __main__.sysupgrade_tests.test_sysupgrade
+# [32m2019-11-01 05:30:36[0m:[1;30mINFO[0m:[34msysupgrade_test[0m:setup initialized
+# [32m2019-11-01 05:30:36[0m:[1;30mINFO[0m:[34msysupgrade_test[0m:Gw is reachable
+# [32m2019-11-01 05:30:36[0m:[1;30mINFO[0m:[34msysupgrade_test[0m:Software download url: http://iopsys:10pF1rmwar3@download.iopsys.eu/iopsys/firmware/NIGHTLY/IOP4/NORRLAND 
+# get_latest_sw_ver: http://iopsys:10pF1rmwar3@download.iopsys.eu/iopsys/firmware/NIGHTLY/IOP4/NORRLAND 
+# Latest Software version: NORRLAND-X-IOPSYS-4.4.0ALPHA5-191031_0641.y3 
+# [32m2019-11-01 05:30:36[0m:[1;30mINFO[0m:[34msysupgrade_test[0m:Software download url: http://iopsys:10pF1rmwar3@download.iopsys.eu/iopsys/firmware/NIGHTLY/IOP4/NORRLAND/NORRLAND-X-IOPSYS-4.4.0ALPHA5-191031_0641.y3 
+# [32m2019-11-01 05:30:36[0m:[1;30mINFO[0m:[34msysupgrade_test[0m:ping -c 1 -w 1 software.inteno.se
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "SDK_100_sysupgrade_support.py", line 67, in test_sysupgrade
+          self.assertTrue(ping_status, "Failed to ping software.inteno.se")
+      AssertionError: None is not true : Failed to ping software.inteno.se
+  ...
+1..1
+
+Testscripts: WiFi_1046_check_wireless_functionality.py
+TAP version 13
+ok 1 __main__.wireless_function_tests.test_wireless_function
+# [32m2019-11-01 05:31:09[0m:[1;30mINFO[0m:[34mwireless_function[0m:setup initialized
+# [32m2019-11-01 05:31:09[0m:[1;30mINFO[0m:[34mwireless_function[0m:Set to default wireless config
+# [32m2019-11-01 05:31:46[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:31:46[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:31:46[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32m[0m
+# [32m2019-11-01 05:31:48[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32m[0m
+# [32m2019-11-01 05:32:52[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32mWireless function is disabled successfully for : wlan0[0m
+# [32m2019-11-01 05:32:52[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32m[0m
+# [32m2019-11-01 05:33:54[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32mWireless function is enabled successfully for : wlan0[0m
+# [32m2019-11-01 05:33:54[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32mBand5 radio interface : wlan2[0m
+# [32m2019-11-01 05:33:54[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32m[0m
+# [32m2019-11-01 05:33:57[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32m[0m
+# [32m2019-11-01 05:35:00[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32mWireless function is disabled successfully for : wlan2[0m
+# [32m2019-11-01 05:35:00[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32m[0m
+# [32m2019-11-01 05:36:02[0m:[1;30mDEBUG[0m:[34mwireless_function[0m:[32mWireless function is enabled successfully for : wlan2[0m
+# [32m2019-11-01 05:36:02[0m:[1;30mINFO[0m:[34mwireless_function[0m:dismantling the setup
+1..1
+
+Testscripts: WiFi_1065_check_macfilter_with_encryption.py
+TAP version 13
+not ok 1 __main__.macfilter_with_encryption_tests.test_macfilter_with_encryption
+# [32m2019-11-01 05:36:04[0m:[1;30mINFO[0m:[34mmacfilter_with_encryption[0m:setup initialized
+# [32m2019-11-01 05:36:04[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 05:36:04[0m:[1;30mINFO[0m:[34mmacfilter_with_encryption[0m:Set to default wireless config
+# [32m2019-11-01 05:36:50[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mWifi mac address of the client : e4:b9:7a:39:e1:52
+# d4:6e:0e:06:7a:24
+# 50:3e:aa:e7:b7:bf
+# 64:5d:86:e3:ec:f2[0m
+# [32m2019-11-01 05:36:50[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:36:50[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:36:50[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32m[0m
+# [32m2019-11-01 05:37:24[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mCurrent encryption method is : none[0m
+# [32m2019-11-01 05:37:56[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mwlan2 radio interface is : disabled[0m
+# [32m2019-11-01 05:37:59[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mwlan0 radio interface is : enabled[0m
+# [32m2019-11-01 05:38:00[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:38:02[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mMacfilter is changed to : disable[0m
+# [32m2019-11-01 05:39:13[0m:[1;30mDEBUG[0m:[34mmacfilter_with_encryption[0m:[32mScan for ssid list from client : ['SSID', 'iopsys-8E63', ''][0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_1065_check_macfilter_with_encryption.py", line 300, in test_macfilter_with_encryption
+          self.verify_mac_functionality(client_wifi_ifname_res, wifi_mac_addr, enable_radio, disable_radio, section, key)
+        File "WiFi_1065_check_macfilter_with_encryption.py", line 178, in verify_mac_functionality
+          self.assertTrue(self.lxc.has_string_in_list(ssid, ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_1015_check_different_encryption_methods.py
+TAP version 13
+not ok 1 __main__.wifi_encryption_tests.test_wifi_encryption
+# [32m2019-11-01 05:39:55[0m:[1;30mINFO[0m:[34mwifi_encryption[0m:setup initialized
+# [32m2019-11-01 05:39:55[0m:[1;30mINFO[0m:[34mwifi_encryption[0m:Set to default wireless config
+# [32m2019-11-01 05:40:40[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 05:40:41[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:40:41[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32m[0m
+# [32m2019-11-01 05:40:41[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:40:41[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32m[0m
+# [32m2019-11-01 05:40:45[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32mDefault encryption method is : psk2[0m
+# [32m2019-11-01 05:40:45[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32mEncryption method is : none[0m
+# [32m2019-11-01 05:41:16[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32mnew encryption method is : none[0m
+# [32m2019-11-01 05:41:18[0m:[1;30mDEBUG[0m:[34mwifi_encryption[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_1015_check_different_encryption_methods.py", line 382, in test_wifi_encryption
+          self.assertTrue(self.lxc.has_string_in_list(ssid, ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_1054_channels_list.py
+TAP version 13
+ok 1 __main__.channel_list_tests.test_channel_list
+# [32m2019-11-01 05:42:51[0m:[1;30mINFO[0m:[34mchannel_list[0m:setup initialized
+# [32m2019-11-01 05:42:51[0m:[1;30mINFO[0m:[34mchannel_list[0m:Set to default wireless config
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32m[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32m[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mBydefault Channels list for wlan0 radio interface is : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13][0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mValid Channel for wlan0 radio interface is : 11[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mMaximum rate for wlan0 radio interface is : 216 Mbps[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32m[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mBand5 radio interface : wlan2[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32m[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mBydefault Channels list for wlan2 radio interface is : [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140][0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mValid Channel for wlan2 radio interface is : 100[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mDEBUG[0m:[34mchannel_list[0m:[32mMaximum rate for wlan2 radio interface is : 288 Mbps[0m
+# [32m2019-11-01 05:43:27[0m:[1;30mINFO[0m:[34mchannel_list[0m:dismantling the setup
+1..1
+
+Testscripts: WiFi_1045_ssid_addition_functionality.py
+TAP version 13
+not ok 1 __main__.ssid_add_tests.test_ssid_add
+# [32m2019-11-01 05:43:29[0m:[1;30mINFO[0m:[34mssid_add[0m:setup initialized
+# [32m2019-11-01 05:43:29[0m:[1;30mINFO[0m:[34mssid_add[0m:Set to default wireless config
+# [32m2019-11-01 05:44:04[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 05:44:07[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:44:07[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32m[0m
+# [32m2019-11-01 05:44:07[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:44:07[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32m[0m
+# [32m2019-11-01 05:44:11[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32mExisting SSID under radio interface wlan0 is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:44:11[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32m[0m
+# [32m2019-11-01 05:44:42[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32mifname for ssid : {'value': 'wlan0.1'}[0m
+# [32m2019-11-01 05:44:54[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32mSSID added successfully : NORRLAND-34E380737D40_band2_1[0m
+# [32m2019-11-01 05:44:55[0m:[1;30mDEBUG[0m:[34mssid_add[0m:[32mKEY is : VOIXHOEQV4S3RS[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_1045_ssid_addition_functionality.py", line 236, in test_ssid_add
+          self.assertTrue(self.lxc.has_string_in_list(wifix_status_res["ssid"], ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_2_wifi_configuration_and_start_up_abstraction.py
+TAP version 13
+not ok 1 __main__.wifi_startup_abstraction_tests.test_wifi_startup_abstraction
+# [32m2019-11-01 05:45:58[0m:[1;30mINFO[0m:[34mwifi_startup_abstraction[0m:setup initialized
+# [32m2019-11-01 05:45:58[0m:[1;30mINFO[0m:[34mwifi_startup_abstraction[0m:Set to default wireless config
+# [32m2019-11-01 05:46:33[0m:[1;30mDEBUG[0m:[34mwifi_startup_abstraction[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 05:47:34[0m:[1;30mDEBUG[0m:[34mwifi_startup_abstraction[0m:[32mhostapd process is running as per-band config file : 31828
+# 31831
+# 31909
+# 31911
+# [0m
+# [32m2019-11-01 05:48:44[0m:[1;30mDEBUG[0m:[34mwifi_startup_abstraction[0m:[32mOld_ssid : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:48:44[0m:[1;30mDEBUG[0m:[34mwifi_startup_abstraction[0m:[32mNew_ssid : NORRLAND-34E380737D40_test[0m
+# [32m2019-11-01 05:48:44[0m:[1;30mDEBUG[0m:[34mwifi_startup_abstraction[0m:[32mPassword : VOIXHOEQV4S3RS[0m
+# [32m2019-11-01 05:48:44[0m:[1;30mDEBUG[0m:[34mwifi_startup_abstraction[0m:[32mSuccessfully Older ssid is no longer visible : NORRLAND-34E380737D40[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_2_wifi_configuration_and_start_up_abstraction.py", line 202, in test_wifi_startup_abstraction
+          self.assertTrue(self.lxc.has_string_in_list(ssid, ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_1014_check_different_wifi_mode_standards.py
+TAP version 13
+not ok 1 __main__.wifi_hwmode_tests.test_wifi_hwmode
+# [32m2019-11-01 05:49:06[0m:[1;30mINFO[0m:[34mwifi_hwmode[0m:setup initialized
+# [32m2019-11-01 05:49:06[0m:[1;30mINFO[0m:[34mwifi_hwmode[0m:Set to default wireless config
+# [32m2019-11-01 05:49:41[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 05:49:42[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:49:42[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32m[0m
+# [32m2019-11-01 05:49:42[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mBand2 radio interface is : wlan0[0m
+# [32m2019-11-01 05:49:42[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mAll suppored hwmodes are fetched properly for wlan0[0m
+# [32m2019-11-01 05:49:42[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mAll suppored hwmodes are :['11b', '11g', '11bg', '11n'][0m
+# [32m2019-11-01 05:49:43[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mold hwmode is : auto[0m
+# [32m2019-11-01 05:49:45[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mnew hwmode is : 11b[0m
+# [32m2019-11-01 05:49:45[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mOnce changed to new hwmode, All suppored hwmodes are  :['11b', '11g', '11bg', '11n'][0m
+# [32m2019-11-01 05:49:48[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:49:49[0m:[1;30mDEBUG[0m:[34mwifi_hwmode[0m:[32mKEY is : VOIXHOEQV4S3RS[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_1014_check_different_wifi_mode_standards.py", line 209, in test_wifi_hwmode
+          self.assertTrue(self.lxc.has_string_in_list(ssid, ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_1032_ssid_hidden_broadcast_functionality.py
+TAP version 13
+not ok 1 __main__.ssid_hidden_tests.test_ssid_hidden
+# [32m2019-11-01 05:51:22[0m:[1;30mINFO[0m:[34mssid_hidden[0m:setup initialized
+# [32m2019-11-01 05:51:22[0m:[1;30mINFO[0m:[34mssid_hidden[0m:Set to default wireless config
+# [32m2019-11-01 05:51:57[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 05:51:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:51:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32m[0m
+# [32m2019-11-01 05:51:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:51:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32m[0m
+# [32m2019-11-01 05:52:02[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mwlan2 radio interface is : disabled[0m
+# [32m2019-11-01 05:52:03[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mwlan0 radio interface is : enabled[0m
+# [32m2019-11-01 05:52:05[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:52:06[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mKEY is : VOIXHOEQV4S3RS[0m
+# [32m2019-11-01 05:52:06[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32m[0m
+# [32m2019-11-01 05:52:06[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mSets hidden and wps config value using ubus call[0m
+# [32m2019-11-01 05:52:48[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mCurrently hidden is 1 and wps is 0[0m
+# [32m2019-11-01 05:53:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mCheck currently ssid is hidden [0m
+# [32m2019-11-01 05:53:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mSince disabled broadcast of ssid, ssid doesn't exist in ssid list[0m
+# [32m2019-11-01 05:53:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32m[0m
+# [32m2019-11-01 05:53:58[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mSets hidden and wps config value using ubus call[0m
+# [32m2019-11-01 05:54:43[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mCurrently hidden is 0 and wps is 1[0m
+# [32m2019-11-01 05:55:53[0m:[1;30mDEBUG[0m:[34mssid_hidden[0m:[32mCheck currently ssid is broadcasted [0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_1032_ssid_hidden_broadcast_functionality.py", line 255, in test_ssid_hidden
+          self.assertTrue(self.lxc.has_string_in_list(ssid, ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_1037_check_ssid_format.py
+TAP version 13
+ok 1 __main__.ssid_format_tests.test_ssid_format
+# [32m2019-11-01 05:56:15[0m:[1;30mINFO[0m:[34mssid_format[0m:setup initialized
+# [32m2019-11-01 05:56:15[0m:[1;30mINFO[0m:[34mssid_format[0m:Set to default wireless config
+# [32m2019-11-01 05:56:51[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:56:51[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32m[0m
+# [32m2019-11-01 05:56:51[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:56:51[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32m[0m
+# [32m2019-11-01 05:56:56[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:56:56[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32mSSID format is valid : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:56:56[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32m[0m
+# [32m2019-11-01 05:56:56[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32mBand5 radio interface : wlan2[0m
+# [32m2019-11-01 05:56:56[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32m[0m
+# [32m2019-11-01 05:56:59[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:56:59[0m:[1;30mDEBUG[0m:[34mssid_format[0m:[32mSSID format is valid : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:56:59[0m:[1;30mINFO[0m:[34mssid_format[0m:dismantling the setup
+1..1
+
+Testscripts: WiFi_1022_check_macfilter_functionality.py
+TAP version 13
+not ok 1 __main__.wifi_macfilter_tests.test_wifi_macfilter
+# [32m2019-11-01 05:57:01[0m:[1;30mINFO[0m:[34mwifi_macfilter[0m:setup initialized
+# [32m2019-11-01 05:57:01[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 05:57:01[0m:[1;30mINFO[0m:[34mwifi_macfilter[0m:Set to default wireless config
+# [32m2019-11-01 05:57:37[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32m[0m
+# [32m2019-11-01 05:57:37[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mWifi mac address of the client : e4:b9:7a:39:e1:52
+# d4:6e:0e:06:7a:24
+# 50:3e:aa:e7:b7:bf
+# 64:5d:86:e3:ec:f2[0m
+# [32m2019-11-01 05:57:37[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:57:37[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32m[0m
+# [32m2019-11-01 05:57:37[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:57:37[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32m[0m
+# [32m2019-11-01 05:57:42[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mwlan2 radio interface is : disabled[0m
+# [32m2019-11-01 05:57:43[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mwlan0 radio interface is : enabled[0m
+# [32m2019-11-01 05:57:45[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mDefault macfilter is set to : disable[0m
+# [32m2019-11-01 05:57:47[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 05:57:49[0m:[1;30mDEBUG[0m:[34mwifi_macfilter[0m:[32mKEY is : VOIXHOEQV4S3RS[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_1022_check_macfilter_functionality.py", line 222, in test_wifi_macfilter
+          self.assertTrue(self.lxc.has_string_in_list(ssid, ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_1084_check_wireless_schedule_functionality.py
+TAP version 13
+ok 1 __main__.wireless_schedule_tests.test_wireless_schedule
+# [32m2019-11-01 05:59:22[0m:[1;30mINFO[0m:[34mwireless_schedule[0m:setup initialized
+# [32m2019-11-01 05:59:22[0m:[1;30mINFO[0m:[34mwireless_schedule[0m:Set to default wireless config
+# [32m2019-11-01 05:59:58[0m:[1;30mDEBUG[0m:[34mwireless_schedule[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 05:59:58[0m:[1;30mDEBUG[0m:[34mwireless_schedule[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 05:59:58[0m:[1;30mDEBUG[0m:[34mwireless_schedule[0m:[32mBand5 radio interface : wlan2[0m
+# [32m2019-11-01 06:03:38[0m:[1;30mDEBUG[0m:[34mwireless_schedule[0m:[32mWifi is disabled successfully for wlan2 once schedule starts: 0[0m
+# [32m2019-11-01 06:03:39[0m:[1;30mDEBUG[0m:[34mwireless_schedule[0m:[32mWifi is disabled successfully for wlan0 once schedule starts: 0[0m
+# [32m2019-11-01 06:07:41[0m:[1;30mDEBUG[0m:[34mwireless_schedule[0m:[32mWifi is enabled successfully for wlan2 once schedule stops: 1[0m
+# [32m2019-11-01 06:07:43[0m:[1;30mDEBUG[0m:[34mwireless_schedule[0m:[32mWifi is enabled successfully for wlan0 once schedule stops: 1[0m
+# [32m2019-11-01 06:07:53[0m:[1;30mINFO[0m:[34mwireless_schedule[0m:dismantling the setup
+1..1
+
+Testscripts: WiFi_1053_scan_list_aps.py
+TAP version 13
+ok 1 __main__.scan_aps_tests.test_scan_aps
+# [32m2019-11-01 06:07:56[0m:[1;30mINFO[0m:[34mscan_aps[0m:setup initialized
+# [32m2019-11-01 06:07:56[0m:[1;30mINFO[0m:[34mscan_aps[0m:Set to default wireless config
+# [32m2019-11-01 06:08:32[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 06:08:32[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mBand2 radio interface : wlan0[0m
+# [32m2019-11-01 06:08:32[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mWireless scanresults for wlan0 radio interface : [0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E380737CF0[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mTranstema Network Services[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mJR-001[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEricsson Local Services[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCitedo Internal[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E3807604F0[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIopsys-HOme[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mOpenWrt[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEASY350-00E092000140[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mGNX-A100[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m(-.-)Zzz...[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIopsys-HOme[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mTranstema Network Services[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIopsys-HOme[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E38075FFF0[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-201F31C8B6C2_test[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEricsson Local Services[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCITEDOLAGER[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mSafeGuard[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-C89E[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCitedo Lab[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mITUS-2G-A0080C[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIOPSYS[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mINTENO-GUEST[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1OPSYS-DevNet[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1OPSYS-DMZ[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIOPSYS-GUEST[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1NTENO-DMZ[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mINTENO[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1NTENO-DevNet[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mINTENO[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1NTENO-DMZ[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1OPSYS-DevNet[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-B01E[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mInteno-C63E[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-B01E[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1OPSYS-DMZ[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIOPSYS-GUEST[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1NTENO-DevNet[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mINTENO-GUEST[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIOPSYS[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEricsson Local Services[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEricsson Local Services[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mBand5 radio interface : wlan2[0m
+# [32m2019-11-01 06:08:41[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mWireless scanresults for wlan2 radio interface : [0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIopsys-HOme[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mJR-001[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIopsys-HOme[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m(-.-)Zzz...-5.0[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E380760110[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mTranstema Network Services[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mTranstema Network Services[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEricsson Local Services[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEricsson Local Services[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mTranstema Network Services[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEricsson Local Services[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCITEDOLAGER[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mITUS-5G-A0080C[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mSafeGuard 2[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCitedo Internal[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-C89E[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCitedo Guest[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCitedo Lab[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-B01E[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E3807604F0[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-8E63[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mEASY350-00E092000140[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mInteno-C63E[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E38075FFF0[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E380737CF0[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mINTENO-GUEST[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mINTENO[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1NTENO-DevNet[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1NTENO-DMZ[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIopsys-HOme[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIOPSYS-GUEST[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mIOPSYS[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1OPSYS-DevNet[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32m1OPSYS-DMZ[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mNORRLAND-34E38075FFF0[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mGNX-A100[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-B01E[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-D1BA[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32miopsys-B01E[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mDEBUG[0m:[34mscan_aps[0m:[32mCitedo Internal[0m
+# [32m2019-11-01 06:09:44[0m:[1;30mINFO[0m:[34mscan_aps[0m:dismantling the setup
+1..1
+
+Testscripts: WiFi_640_display_sta_airtime_usage.py
+TAP version 13
+not ok 1 __main__.wifi_stas_data_tests.test_wifi_stas_data
+# [32m2019-11-01 06:09:46[0m:[1;30mINFO[0m:[34mwifi_stas_data[0m:setup initialized
+# [32m2019-11-01 06:09:46[0m:[1;30mINFO[0m:[34mwifi_stas_data[0m:Set to default wireless config
+# [32m2019-11-01 06:10:21[0m:[1;30mDEBUG[0m:[34mwifi_stas_data[0m:[32mClient WiFi Interface: [0m
+# [32m2019-11-01 06:10:21[0m:[1;30mINFO[0m:[34mwifi_stas_data[0m:Connect to any Wifi client
+# [32m2019-11-01 06:10:23[0m:[1;30mDEBUG[0m:[34mwifi_stas_data[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 06:10:23[0m:[1;30mDEBUG[0m:[34mwifi_stas_data[0m:[32m[0m
+# [32m2019-11-01 06:10:23[0m:[1;30mDEBUG[0m:[34mwifi_stas_data[0m:[32mBand2 radio interface is : wlan0[0m
+# [32m2019-11-01 06:10:28[0m:[1;30mDEBUG[0m:[34mwifi_stas_data[0m:[32mSSID is : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 06:10:29[0m:[1;30mDEBUG[0m:[34mwifi_stas_data[0m:[32mKEY is : VOIXHOEQV4S3RS[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_640_display_sta_airtime_usage.py", line 171, in test_wifi_stas_data
+          self.assertTrue(self.lxc.has_string_in_list(ssid, ssid_list), "Fail to fetch newly created ssid")
+      AssertionError: False is not true : Fail to fetch newly created ssid
+  ...
+1..1
+
+Testscripts: WiFi_1048_check_wps_functionality.py
+TAP version 13
+not ok 1 __main__.wps_function_tests.test_wps_function
+# [32m2019-11-01 06:12:01[0m:[1;30mINFO[0m:[34mwps_function[0m:setup initialized
+# [32m2019-11-01 06:12:01[0m:[1;30mINFO[0m:[34mwps_function[0m:Set to default wireless config
+# [32m2019-11-01 06:12:38[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32mBoth radio frequencies are exist : ['2.4GHz', '5GHz'][0m
+# [32m2019-11-01 06:12:38[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:12:40[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:12:43[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:12:44[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32mBydefault WPS is set to 1 for wlan0[0m
+# [32m2019-11-01 06:12:44[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:12:45[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32mBydefault WPS is set to 1 for wlan2[0m
+# [32m2019-11-01 06:12:45[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32mEnable WPS for both radio interface ['wlan0', 'wlan2'] and check the wps status[0m
+# [32m2019-11-01 06:12:45[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:12:45[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:13:05[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:13:11[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:13:16[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+# [32m2019-11-01 06:13:18[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32mWPS is enabled for wlan0 and wps status is : processing[0m
+# [32m2019-11-01 06:13:18[0m:[1;30mDEBUG[0m:[34mwps_function[0m:[32m[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WiFi_1048_check_wps_functionality.py", line 135, in test_wps_function
+          self.assertEqual(str(wifix_wps_status_res["status"]), 'processing', "wps status is incorrect")
+      AssertionError: 'init' != 'processing'
+      - init
+      + processing
+       : wps status is incorrect
+  ...
+1..1
+
+Testscripts: IPTV_341_wan_port_vlan_mcproxy_config_p1.py
+TAP version 13
+not ok 1 __main__.mcast_pa_tests.test_mcast_pa
+# [32m2019-11-01 06:13:24[0m:[1;30mINFO[0m:[34mmcast_pa[0m:setup initialized
+# [32m2019-11-01 06:13:25[0m:[1;30mDEBUG[0m:[34mmcast_pa[0m:[32meth1[0m
+# [32m2019-11-01 06:13:28[0m:[1;30mDEBUG[0m:[34mmcast_pa[0m:[32mCheck mcproxy pids list: ['23032', '28220', '28222'][0m
+# [32m2019-11-01 06:13:28[0m:[1;30mDEBUG[0m:[34mmcast_pa[0m:[32mCheck mcproxy pids length: 3[0m
+# [32m2019-11-01 06:14:10[0m:[1;30mDEBUG[0m:[34mmcast_pa[0m:[32mSuccessfully created Network config for VLAN id 101 with priority 4 on ethwan port[0m
+# [32m2019-11-01 06:14:23[0m:[1;30mDEBUG[0m:[34mmcast_pa[0m:[32mSuccessfully created Network config for IPTV interface[0m
+# [32m2019-11-01 06:14:27[0m:[1;30mDEBUG[0m:[34mmcast_pa[0m:[32mSuccessfully created mcproxy config[0m
+# [32m2019-11-01 06:14:31[0m:[1;30mDEBUG[0m:[34mmcast_pa[0m:[32mSuccessfully created mcproxy config for instance VLAN[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "IPTV_341_wan_port_vlan_mcproxy_config_p1.py", line 169, in test_mcast_pa
+          wan_ip = network_interface_res["interface"][i]["ipv4-address"][0]["address"]
+      KeyError: 'ipv4-address'
+  ...
+1..1
+
+Testscripts: IPTV_341_support_multicast_with_acceleration_p2.py
+TAP version 13
+ok 1 __main__.iptv_pkt_analyzer_tests.test_iptv_pkt_analyzer
+# [32m2019-11-01 06:14:36[0m:[1;30mINFO[0m:[34miptv_pkt_analyzer[0m:setup initialized
+# [32m2019-11-01 06:14:46[0m:[1;30mDEBUG[0m:[34miptv_pkt_analyzer[0m:[32mClient Ethernet Interface: wlp2s0
+# enxd46e0e067a24[0m
+# [32m2019-11-01 06:14:47[0m:[1;30mDEBUG[0m:[34miptv_pkt_analyzer[0m:[32mWAN interface: eth1[0m
+# [32m2019-11-01 06:14:48[0m:[1;30mDEBUG[0m:[34miptv_pkt_analyzer[0m:[32mCheck mcproxy pids list: ['30088', '30090'][0m
+# [32m2019-11-01 06:14:48[0m:[1;30mDEBUG[0m:[34miptv_pkt_analyzer[0m:[32mCheck mcproxy pids length: 2[0m
+# [32m2019-11-01 06:14:48[0m:[1;30mDEBUG[0m:[34miptv_pkt_analyzer[0m:[32mmcproxy process is not running, This testscript is not applicaple to continue on this board[0m
+1..1
+
+Testscripts: Network_801_defaultreset.py
+TAP version 13
+ok 1 __main__.factory_reset_tests.test_factory_reset
+# [32m2019-11-01 06:14:50[0m:[1;30mINFO[0m:[34mfactory_reset[0m:setup initialized
+# [32m2019-11-01 06:14:52[0m:[1;30mDEBUG[0m:[34mfactory_reset[0m:[32mhostname is :  iopsys[0m
+# [32m2019-11-01 06:14:59[0m:[1;30mDEBUG[0m:[34mfactory_reset[0m:[32mhostname is changed : iopsys_defaultreset[0m
+# [32m2019-11-01 06:14:59[0m:[1;30mINFO[0m:[34mfactory_reset[0m:Defaultreset started...
+# [32m2019-11-01 06:14:59[0m:[1;30mDEBUG[0m:[34mfactory_reset[0m:[32mDefault reset to remove script specific settings[0m
+# [32m2019-11-01 06:14:59[0m:[1;30mDEBUG[0m:[34mfactory_reset[0m:[32mDefault reset start[0m
+# ssh run command error: SSH session not activessh run command error: SSH session not activessh run command error: SSH session not activessh run command error: SSH session not active[32m2019-11-01 06:15:04[0m:[1;30mDEBUG[0m:[34mfactory_reset[0m:[32mDefault reset stop[0m
+# [32m2019-11-01 06:23:26[0m:[1;30mDEBUG[0m:[34mfactory_reset[0m:[32mGateway is reachable[0m
+# [32m2019-11-01 06:23:28[0m:[1;30mDEBUG[0m:[34mfactory_reset[0m:[32mAfter defaultreset hostname is set to defaultsetting  :  iopsys[0m
+# [32m2019-11-01 06:23:28[0m:[1;30mINFO[0m:[34mfactory_reset[0m:dismantling the setup
+1..1
+
+Testscripts: Network_795_dnslookup.py
+printme: * * * save configuration * * *
+TAP version 13
+ok 1 __main__.dns_lookup_tests.test_dns_lookup
+# [32m2019-11-01 06:23:28[0m:[1;30mINFO[0m:[34mdns_lookup[0m:setup initialized
+# [32m2019-11-01 06:23:28[0m:[1;30mDEBUG[0m:[34mdns_lookup[0m:[32mHost IP : 192.36.125.18[0m
+# [32m2019-11-01 06:23:28[0m:[1;30mDEBUG[0m:[34mdns_lookup[0m:[32mClient Ethernet Interface: enp0s31f6[0m
+# [32m2019-11-01 06:23:28[0m:[1;30mDEBUG[0m:[34mdns_lookup[0m:[32mGateway ip: 10.0.2.1[0m
+# [32m2019-11-01 06:23:28[0m:[1;30mDEBUG[0m:[34mdns_lookup[0m:[32mping.sunet.se IP in static route 10.0.2.1[0m
+# [32m2019-11-01 06:23:28[0m:[1;30mDEBUG[0m:[34mdns_lookup[0m:[32mping.sunet.se host is reachable : ping ping.sunet.se[0m
+# [32m2019-11-01 06:23:28[0m:[1;30mINFO[0m:[34mdns_lookup[0m:dismantling the setup
+1..1
+printme: * * * restore configuration * * *
+
+Testscripts: Network_964_DHCP_pool_start_size.py
+TAP version 13
+not ok 1 __main__.dhcp_pool_tests.test_dhcp_pool
+# [32m2019-11-01 06:23:31[0m:[1;30mINFO[0m:[34mdhcp_pool[0m:setup initialized
+# [32m2019-11-01 06:23:41[0m:[1;30mDEBUG[0m:[34mdhcp_pool[0m:[32mClient Ethernet Interface: enxd46e0e067a24
+# wlp2s0[0m
+# [32m2019-11-01 06:23:41[0m:[1;30mINFO[0m:[34mdhcp_pool[0m:Check Offered ip for dhcp pool start '10' and dhcp pool limit '80'
+# [32m2019-11-01 06:24:27[0m:[1;30mDEBUG[0m:[34mdhcp_pool[0m:[32mGot new IP for client macaddres '64:5d:86:e3:ec:f2' is : 192.168.1.86[0m
+# [32m2019-11-01 06:24:27[0m:[1;30mDEBUG[0m:[34mdhcp_pool[0m:[32mOffered ip 192.168.1.86 is in the dhcp pool range (10-90)[0m
+# [32m2019-11-01 06:24:27[0m:[1;30mDEBUG[0m:[34mdhcp_pool[0m:[32mGot new IP for client macaddres 'd4:6e:0e:06:7a:24' is : 192.168.1.100[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "Network_964_DHCP_pool_start_size.py", line 115, in test_dhcp_pool
+          self.assertTrue(self.verify_pool_range(offered_ip, dhcp_pool_start["value"], dhcp_pool_size), "Offered ip is not in dhcp pool range")
+      AssertionError: False is not true : Offered ip is not in dhcp pool range
+  ...
+1..1
+
+Testscripts: Network_967_custom_DNS_server_configurable.py
+TAP version 13
+not ok 1 __main__.cusom_dns_tests.test_cusom_dns
+# [32m2019-11-01 06:24:29[0m:[1;30mINFO[0m:[34mcusom_dns[0m:setup initialized
+# [32m2019-11-01 06:24:39[0m:[1;30mINFO[0m:[34mcusom_dns[0m:custom dns configured: False
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "Network_967_custom_DNS_server_configurable.py", line 61, in test_cusom_dns
+          self.assertTrue(True if self.cusom_dns.DNS_SERVER_IP in ifstatus_res else False, "Failed to configure custom dns")
+      AssertionError: False is not true : Failed to configure custom dns
+  ...
+1..1
+
+Testscripts: Network_798_network_ports.py
+TAP version 13
+ok 1 __main__.network_ports_tests.test_network_ports
+# [32m2019-11-01 06:24:41[0m:[1;30mINFO[0m:[34mnetwork_ports[0m:setup initialized
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mTotal Ethernet ports :5[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mTotal Ethernet Interfaces: 4[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mTotal Wireless Interfaces: 2[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mEthernet Interface-1 : eth0_1 : LAN1[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mEthernet Interface-2 : eth0_2 : LAN2[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mEthernet Interface-3 : eth0_3 : LAN3[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mEthernet Interface-4 : eth0_4 : LAN4[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mWireless Interface-1 : wlan0 : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mDEBUG[0m:[34mnetwork_ports[0m:[32mWireless Interface-2 : wlan2 : NORRLAND-34E380737D40[0m
+# [32m2019-11-01 06:24:44[0m:[1;30mINFO[0m:[34mnetwork_ports[0m:dismantling the setup
+1..1
+
+Testscripts: Network_966_dhcp_resolve_hostname.py
+TAP version 13
+not ok 1 __main__.dhcp_resolve_hostname_tests.test_dhcp_resolve_hostname
+# [32m2019-11-01 06:24:47[0m:[1;30mINFO[0m:[34mdhcp_resolve_hostname[0m:setup initialized
+# [32m2019-11-01 06:24:47[0m:[1;30mINFO[0m:[34mdhcp_resolve_hostname[0m:Set to default dhcp config
+# [32m2019-11-01 06:25:24[0m:[1;30mDEBUG[0m:[34mdhcp_resolve_hostname[0m:[32mThe hostname Name : 'testrouterLatha.lan'[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "Network_966_dhcp_resolve_hostname.py", line 87, in test_dhcp_resolve_hostname
+          self.assertNotEqual(nslookup_domain, None, "Server cannot find hostname")
+      AssertionError: None == None : Server cannot find hostname
+  ...
+1..1
+
+Testscripts: Network_102_vlan_support.py
+TAP version 13
+ok 1 __main__.vlan_support_tests.test_vlan_support
+# [32m2019-11-01 06:25:57[0m:[1;30mINFO[0m:[34mvlan_support[0m:setup initialized
+# [32m2019-11-01 06:25:58[0m:[1;30mDEBUG[0m:[34mvlan_support[0m:[32meth1[0m
+# [32m2019-11-01 06:25:58[0m:[1;30mINFO[0m:[34mvlan_support[0m:Set to default network config
+# [32m2019-11-01 06:27:12[0m:[1;30mDEBUG[0m:[34mvlan_support[0m:[32mSuccessfully created Network config for VLAN id 101 with priority 4 on ethwan port[0m
+# [32m2019-11-01 06:27:21[0m:[1;30mDEBUG[0m:[34mvlan_support[0m:[32mSuccessfully created Network config for IPTV interface[0m
+# [32m2019-11-01 06:27:27[0m:[1;30mDEBUG[0m:[34mvlan_support[0m:[32mWAN Interface with VLAN: eth1.101[0m
+# [32m2019-11-01 06:27:27[0m:[1;30mDEBUG[0m:[34mvlan_support[0m:[32mWAN IP Address with VLAN: 10.0.101.132[0m
+# [32m2019-11-01 06:27:27[0m:[1;30mINFO[0m:[34mvlan_support[0m:dismantling the setup
+1..1
+
+Testscripts: Network_797_network_ports_lan_speed.py
+TAP version 13
+not ok 1 __main__.lan_speed_tests.test_lan_speed
+# [32m2019-11-01 06:27:29[0m:[1;30mINFO[0m:[34mlan_speed[0m:setup initialized
+# [32m2019-11-01 06:27:31[0m:[1;30mDEBUG[0m:[34mlan_speed[0m:[32mEmpty ethernet port : eth0_1[0m
+# [32m2019-11-01 06:27:31[0m:[1;30mDEBUG[0m:[34mlan_speed[0m:[32mEmpty ethernet port name: LAN1[0m
+# [32m2019-11-01 06:27:32[0m:[1;30mDEBUG[0m:[34mlan_speed[0m:[32mDefault speed: auto[0m
+# [32m2019-11-01 06:27:35[0m:[1;30mDEBUG[0m:[34mlan_speed[0m:[32mNew speed: 10FD[0m
+# [32m2019-11-01 06:27:36[0m:[1;30mDEBUG[0m:[34mlan_speed[0m:[32mNew speed is active on port LAN1 with speed Fixed 10 Mbps Full Duplex[0m
+# [32m2019-11-01 06:27:42[0m:[1;30mDEBUG[0m:[34mlan_speed[0m:[32mReboot DUT[0m
+# [32m2019-11-01 06:30:44[0m:[1;30mDEBUG[0m:[34mlan_speed[0m:[32mGateway is reachable[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "Network_797_network_ports_lan_speed.py", line 119, in test_lan_speed
+          self.assertEqual(port_status_res[i]["speed"], speed_str, "New speed is still not active (after reboot) on port "+empty_port_name+" with speed "+self.lan_speed.speed['speed_10FD'])
+      AssertionError: 'Auto' != 'Fixed 10 Mbps Full Duplex'
+      - Auto
+      + Fixed 10 Mbps Full Duplex
+       : New speed is still not active (after reboot) on port LAN1 with speed 10FD
+  ...
+1..1
+
+Testscripts: Network_799_network_statistics_owsd.py
+TAP version 13
+ok 1 __main__.owsd_statistics_tests.test_owsd_statistics
+# [32m2019-11-01 06:30:47[0m:[1;30mINFO[0m:[34mowsd_statistics[0m:setup initialized
+# [32m2019-11-01 06:30:48[0m:[1;30mDEBUG[0m:[34mowsd_statistics[0m:[32mIP Address: 192.168.1.1[0m
+# [32m2019-11-01 06:30:48[0m:[1;30mDEBUG[0m:[34mowsd_statistics[0m:[32mWAN IP Address: 10.0.2.200[0m
+# [32m2019-11-01 06:30:48[0m:[1;30mDEBUG[0m:[34mowsd_statistics[0m:[32mWAN Interface: eth1[0m
+# [32m2019-11-01 06:30:49[0m:[1;30mDEBUG[0m:[34mowsd_statistics[0m:[32mWan interface eth1 has Multicast flag :           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1[0m
+# [32m2019-11-01 06:30:50[0m:[1;30mDEBUG[0m:[34mowsd_statistics[0m:[32mWebserver owsd is listening on all expected sockets 
+# tcp        0      0 127.0.0.1:80            0.0.0.0:*               LISTEN      12017/owsd
+# tcp        0      0 192.168.1.1:80          0.0.0.0:*               LISTEN      12017/owsd
+# tcp        0      0 10.0.2.200:80           0.0.0.0:*               LISTEN      12017/owsd
+# tcp        0      0 10.0.2.200:8080         0.0.0.0:*               LISTEN      12017/owsd
+# tcp        0      0 10.0.2.200:443          0.0.0.0:*               LISTEN      12017/owsd
+# tcp        0      0 2001:9b0:1:3327::1:80   :::*                    LISTEN      12017/owsd
+# tcp        0      0 2001:9b0:1:3302:36e3:80ff:fe73:7d41:80 :::*                    LISTEN      12017/owsd
+# tcp        0      0 2001:9b0:1:3302::9b:80  :::*                    LISTEN      12017/owsd
+# [0m
+# [32m2019-11-01 06:30:50[0m:[1;30mINFO[0m:[34mowsd_statistics[0m:dismantling the setup
+1..1
+
+Testscripts: Network_965_static_wan_config.py
+TAP version 13
+ok 1 __main__.static_wan_tests.test_static_wan
+# [32m2019-11-01 06:30:52[0m:[1;30mINFO[0m:[34mstatic_wan[0m:setup initialized
+# [32m2019-11-01 06:30:53[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mWAN IP Address: 10.0.2.200[0m
+# [32m2019-11-01 06:30:53[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mCurrent WAN connection type : dhcp[0m
+# [32m2019-11-01 06:30:53[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mGateway IP Address: 10.0.2.1[0m
+# [32m2019-11-01 06:30:53[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mWAN Interface: eth1[0m
+# [32m2019-11-01 06:30:55[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32m [0m
+# [32m2019-11-01 06:30:55[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mConfigure WAN port for Static IP : [0m
+# [32m2019-11-01 06:31:57[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully configured WAN port for option proto : static[0m
+# [32m2019-11-01 06:31:59[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully configured WAN port for option ipaddr : 10.0.2.200[0m
+# [32m2019-11-01 06:32:00[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully configured WAN port for option netmask : 255.255.255.0[0m
+# [32m2019-11-01 06:32:01[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully configured WAN port for option broadcast : 10.0.2.255[0m
+# [32m2019-11-01 06:32:02[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully configured WAN port for option gateway : 10.0.2.1[0m
+# [32m2019-11-01 06:32:03[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mWAN IP Address: 10.0.2.200[0m
+# [32m2019-11-01 06:32:03[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully configured WAN, connection type : static[0m
+# [32m2019-11-01 06:32:03[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mGateway IP Address: 10.0.2.1[0m
+# [32m2019-11-01 06:32:03[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully able to ping static ip : 10.0.2.1[0m
+# [32m2019-11-01 06:32:03[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32m [0m
+# [32m2019-11-01 06:32:03[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mConfigure WAN port back to dhcp : [0m
+# [32m2019-11-01 06:33:05[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mWAN IP Address: 10.0.2.200[0m
+# [32m2019-11-01 06:33:05[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully configured back for WAN, connection type : dhcp[0m
+# [32m2019-11-01 06:33:05[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mGateway IP Address: 10.0.2.1[0m
+# [32m2019-11-01 06:33:05[0m:[1;30mDEBUG[0m:[34mstatic_wan[0m:[32mSuccessfully able to ping gateway : 10.0.2.1[0m
+# [32m2019-11-01 06:33:05[0m:[1;30mINFO[0m:[34mstatic_wan[0m:dismantling the setup
+1..1
+
+Testscripts: Network_342_Acceleration_IPv4.py
+TAP version 13
+not ok 1 __main__.iperf_tests.test_iperf
+# [32m2019-11-01 06:33:07[0m:[1;30mINFO[0m:[34miperf_test[0m:setup initialized
+# [32m2019-11-01 06:33:08[0m:[1;30mDEBUG[0m:[34miperf_test[0m:[32mksoftirqd cpu usage is less than 4% : 0[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "Network_342_Acceleration_IPv4.py", line 106, in test_iperf
+          self.assertNotEqual(self.avg_bandwidth, "read_failed", "Looks like iperf server is down else Server listening on TCP port")
+      AssertionError: 'read_failed' == 'read_failed' : Looks like iperf server is down else Server listening on TCP port
+  ...
+1..1
+
+Testscripts: Network_334_port_management.py
+TAP version 13
+ok 1 __main__.port_management_tests.test_port_management
+# [32m2019-11-01 06:33:20[0m:[1;30mINFO[0m:[34mport_management[0m:setup initialized
+# [32m2019-11-01 06:33:22[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mWAN IP Address: 10.0.2.200[0m
+# [32m2019-11-01 06:33:22[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mWAN Interface: eth1[0m
+# [32m2019-11-01 06:33:38[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mSpeed is set to :  100FD[0m
+# [32m2019-11-01 06:33:40[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mUbus port status  100FD  :  Fixed 100 Mbps Full Duplex => (Expected : Fixed 100 Mbps Full Duplex )[0m
+# [32m2019-11-01 06:33:41[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mWAN interface eth1 has speed: 100FD with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:33:58[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mSpeed is set to :  auto[0m
+# [32m2019-11-01 06:33:59[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mUbus port status  auto  :  Auto-negotiated 1000 Mbps Full Duplex => (Expected : Auto-negotiated 1000 Mbps Full Duplex )[0m
+# [32m2019-11-01 06:34:00[0m:[1;30mDEBUG[0m:[34mport_management[0m:[32mWAN interface eth1 has speed: auto with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:34:00[0m:[1;30mINFO[0m:[34mport_management[0m:dismantling the setup
+1..1
+
+Testscripts: Network_speedTest.py
+TAP version 13
+ok 1 __main__.speedTest_tests.test_speedTest
+# [32m2019-11-01 06:34:03[0m:[1;30mINFO[0m:[34mtptest[0m:setup initialized
+# [32m2019-11-01 06:34:19[0m:[1;30mINFO[0m:[34mtptest[0m:cmd: tptest ubus listen executed
+# [32m2019-11-01 06:34:45[0m:[1;30mINFO[0m:[34mtptest[0m:cmd: tptest ubus start executed
+# [32m2019-11-01 06:34:45[0m:[1;30mINFO[0m:[34mtptest[0m:File transfer from gw to local machine
+# [32m2019-11-01 06:34:56[0m:[1;30mDEBUG[0m:[34mtptest[0m:[32mRead json output: {'diagnostics.speedtest': {'status': 0, 'upstream': 'none', 'downstream': '0', 'label': 'success', 'sequence_number': 0}} [0m
+# [32m2019-11-01 06:34:56[0m:[1;30mDEBUG[0m:[34mtptest[0m:[32mAs of now script verification is done only for downlink[0m
+# [32m2019-11-01 06:34:56[0m:[1;30mINFO[0m:[34mtptest[0m:dismantling the setup
+1..1
+
+Testscripts: System-OS_803_generic_info.py
+TAP version 13
+ok 1 __main__.system_info_tests.test_system_info
+# [32m2019-11-01 06:34:58[0m:[1;30mINFO[0m:[34msystem_info[0m:setup initialized
+# [32m2019-11-01 06:34:58[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mWIFI Interface: wlan0[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mHostName: iopsys[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mHardware: NORRLAND[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mSoftware: NORRLAND-X-IOPSYS-4.4.0ALPHA5-191031_0641[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mSerial: W.2119220057[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mBoardId: NORRLAND[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mBaseMacAddr: 34:E3:80:73:7D:40[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mWPAKey: VOIXHOEQV4S3RS[0m
+# [32m2019-11-01 06:35:01[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mVendorId: NORRLANDX[0m
+# [32m2019-11-01 06:35:02[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mHostName: iopsys[0m
+# [32m2019-11-01 06:35:02[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mKernel: 4.9.109+[0m
+# [32m2019-11-01 06:35:02[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mSystem: GRX350 rev 1.2[0m
+# [32m2019-11-01 06:35:02[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mModel: NORRLAND[0m
+# [32m2019-11-01 06:35:02[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mBoard name: generic[0m
+# [32m2019-11-01 06:35:03[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mLANMAC: 34:e3:80:73:7d:40[0m
+# [32m2019-11-01 06:35:04[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mSSID: NORRLAND-34E380737D40[0m
+# [32m2019-11-01 06:35:07[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mWIFiMAC: 34:E3:80:73:7D:42[0m
+# [32m2019-11-01 06:35:09[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mWifi Channel: 11[0m
+# [32m2019-11-01 06:35:09[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mWifi Rate: 216 Mbps[0m
+# [32m2019-11-01 06:35:12[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mcountry: DE[0m
+# [32m2019-11-01 06:35:13[0m:[1;30mDEBUG[0m:[34msystem_info[0m:[32mDECT: False[0m
+# [32m2019-11-01 06:35:13[0m:[1;30mINFO[0m:[34msystem_info[0m:dismantling the setup
+1..1
+
+Testscripts: System-OS_806_user_shell.py
+TAP version 13
+ok 1 __main__.user_shell_tests.test_user_shell
+# [32m2019-11-01 06:35:15[0m:[1;30mINFO[0m:[34muser_shell[0m:setup initialized
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser root has shell /bin/ash[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser ftp has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser network has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser nobody has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser daemon has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser admin has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser user has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser support has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser dnsmasq has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34muser_shell[0m:[32mUser ntp has shell /bin/false[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mINFO[0m:[34muser_shell[0m:dismantling the setup
+1..1
+
+Testscripts: System-OS_802_check_ssh_access.py
+TAP version 13
+not ok 1 __main__.ssh_access_tests.test_ssh_access
+# [32m2019-11-01 06:35:16[0m:[1;30mINFO[0m:[34mssh_access[0m:setup initialized
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34mssh_access[0m:[32mClient Ethernet Interface: enxd46e0e067a24
+# wlp2s0[0m
+# [32m2019-11-01 06:35:16[0m:[1;30mDEBUG[0m:[34mssh_access[0m:[32mGateway ip: default via 192.168.1.1 dev enxd46e0e067a24 proto static metric 106[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "System-OS_802_check_ssh_access.py", line 63, in test_ssh_access
+          self.assertEqual(usr, 'root', "Permission denied (publickey,password)")
+      AssertionError: 'user' != 'root'
+      - user
+      + root
+       : Permission denied (publickey,password)
+  ...
+1..1
+
+Testscripts: System-OS_217_received_ntp_servers_via_dhcp.py
+TAP version 13
+ok 1 __main__.ntp_server_tests.test_ntp_server
+# [32m2019-11-01 06:35:19[0m:[1;30mINFO[0m:[34mntp_servers[0m:setup initialized
+# [32m2019-11-01 06:35:20[0m:[1;30mDEBUG[0m:[34mntp_servers[0m:[32mInterface added to ntp config : wan[0m
+# NTPServer : 110.116.112.46 105.110.116.101 110.111.46.115
+# [32m2019-11-01 06:35:39[0m:[1;30mDEBUG[0m:[34mntp_servers[0m:[32mNTP Servers : 110.116.112.46 105.110.116.101 110.111.46.115[0m
+# [32m2019-11-01 06:35:39[0m:[1;30mINFO[0m:[34mntp_servers[0m:dismantling the setup
+1..1
+
+Testscripts: System-OS_471_rulengd_read_rules_from_json.py
+TAP version 13
+not ok 1 __main__.rulengd_tests.test_rulengdTest
+# [32m2019-11-01 06:35:42[0m:[1;30mINFO[0m:[34mrulengd_test[0m:setup initialized
+# [32m2019-11-01 06:35:42[0m:[1;30mINFO[0m:[34mrulengd_test[0m:Set to default ruleng config
+# [32m2019-11-01 06:35:48[0m:[1;30mDEBUG[0m:[34mrulengd_test[0m:[32mWAN Port: eth1[0m
+# [32m2019-11-01 06:35:52[0m:[1;30mDEBUG[0m:[34mrulengd_test[0m:[32mWan Interface MacAddr: 34:e3:80:73:7d:41[0m
+# [32m2019-11-01 06:35:52[0m:[1;30mDEBUG[0m:[34mrulengd_test[0m:[32mrecipe_1.json is updated with port and Macaddress: ["[{'event': 'test_event_1', 'match': {'port': 'eth1', 'link': 'up'}}, {'event': 'test_event_2', 'match': {'action': 'connect', 'macaddr': '34:e3:80:73:7d:41'}}]"][0m
+# [32m2019-11-01 06:35:57[0m:[1;30mDEBUG[0m:[34mrulengd_test[0m:[32mFile transfered from local machine to GW : /etc/recipe_1.json[0m
+# [32m2019-11-01 06:35:58[0m:[1;30mDEBUG[0m:[34mrulengd_test[0m:[32mRulengd Version: 1.1.0-1[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "System-OS_471_rulengd_read_rules_from_json.py", line 109, in test_rulengdTest
+          res = self.assertTrue(True if "led.wps" in ret else False, "Failed to fetch, looks like led.wps ubus object is not present")
+      TypeError: argument of type 'NoneType' is not iterable
+  ...
+1..1
+
+Testscripts: System-OS_805_system_load_avg.py
+TAP version 13
+not ok 1 __main__.system_avg_load_tests.test_system_avg_load
+# [32m2019-11-01 06:36:06[0m:[1;30mINFO[0m:[34msystem_avg_load[0m:setup initialized
+# [32m2019-11-01 06:36:07[0m:[1;30mDEBUG[0m:[34msystem_avg_load[0m:[32mGot top output : [H[JMem: 120504K used, 96624K free, 280K shrd, 0K buff, 32724K cached
+# CPU:  62% usr  37% sys   0% nic   0% idle   0% io   0% irq   0% sirq
+# Load average: 4.72 3.95 2.05 4/168 6323
+# [7m  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND[0m
+#  6290  6245 root     R     1328   1%  25% {exe} grep -i all_proxy /usr/lib/libcu
+#  6292  6227 root     S     1492   1%   9% {hotplug-call} /bin/sh /sbin/hotplug-c
+#  6291  6289 root     R     1332   1%   9% top -n 1
+#  2367     2 root     DW       0   0%   3% [mtlk_wlan0]
+#     7     2 root     SW       0   0%   3% [rcu_sched]
+# 11023     1 root     S    26896  12%   0% /usr/sbin/asterisk
+# 24281     1 root     S     7664   4%   0% /usr/sbin/icwmpd -b
+#  4426     1 root     S     7336   3%   0% /sbin/questd
+# 12483     1 root     S     6292   3%   0% /usr/sbin/obuspa -p -v 4 -r /tmp/obusp
+# 20277     1 root     S     4676   2%   0% /usr/sbin/hostapd -P /var/run/wifi-phy
+# 20239     1 root     S     4608   2%   0% /usr/sbin/hostapd -P /var/run/wifi-phy
+# 10877     1 root     S     4256   2%   0% /usr/sbin/wifixd
+# 10870 10858 root     S     4248   2%   0% {nl80211_scan} /usr/sbin/wifimngr
+# 10876 10858 root     S     4248   2%   0% {nl80211_scan} /usr/sbin/wifimngr
+# 10858     1 root     S     4160   2%   0% /usr/sbin/wifimngr
+# 10626     1 root     S     4040   2%   0% /usr/sbin/uspd
+#  6088     1 root     S     3992   2%   0% /usr/bin/owsd -f /tmp/owsd/owsd_cfg.js
+#  6697     1 root     S     3328   2%   0% qosd
+#  5943     1 ntp      S     3152   1%   0% /sbin/ntpd -g -u ntp:ntp -p /var/run/n
+#  4427     1 root     S     2980   1%   0% /sbin/graphd
+# [0m
+# [32m2019-11-01 06:36:07[0m:[1;30mDEBUG[0m:[34msystem_avg_load[0m:[32mGot top output[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "System-OS_805_system_load_avg.py", line 64, in test_system_avg_load
+          self.assertLess(fifteen_min_load_avg, avgload_threshold, "15 min load average is above threshold")
+      AssertionError: '2.05' not less than '1.5' : 15 min load average is above threshold
+  ...
+1..1
+
+Testscripts: System-OS_804_system_freememory_check.py
+TAP version 13
+not ok 1 __main__.freemem_check_tests.test_freemem_check
+# [32m2019-11-01 06:36:10[0m:[1;30mINFO[0m:[34mfreemem_check[0m:setup initialized
+# [32m2019-11-01 06:36:11[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32mubi0:rootfs_0            53096     38316     14780  72% /rom[0m
+# [32m2019-11-01 06:36:11[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32mdevtmpfs                 92068         0     92068   0% /dev[0m
+# [32m2019-11-01 06:36:11[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32mtmpfs                   108564       276    108288   0% /tmp[0m
+# [32m2019-11-01 06:36:11[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32moverlayfs:/overlay       53096     38316     14780  72% /[0m
+# [32m2019-11-01 06:36:11[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32mubi0:usr_data              456        20       376   5% /usr_data[0m
+# [32m2019-11-01 06:36:12[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32mFree memory from free : 96648[0m
+# [32m2019-11-01 06:36:13[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32mMeminfo from /proc/meminfo : 
+# MemTotal:         217128 kB
+# MemFree:           97376 kB
+# MemAvailable:     131428 kB
+# Buffers:               0 kB
+# Cached:            32724 kB
+# SwapCached:            0 kB
+# Active:            31816 kB
+# Inactive:          16844 kB
+# Active(anon):      16128 kB
+# Inactive(anon):       88 kB
+# Active(file):      15688 kB
+# Inactive(file):    16756 kB
+# Unevictable:           0 kB
+# Mlocked:               0 kB
+# SwapTotal:             0 kB
+# SwapFree:              0 kB
+# Dirty:                 4 kB
+# Writeback:             0 kB
+# AnonPages:         15928 kB
+# Mapped:            12844 kB
+# Shmem:               280 kB
+# Slab:              20216 kB
+# SReclaimable:       5920 kB
+# SUnreclaim:        14296 kB
+# KernelStack:        1264 kB
+# PageTables:          748 kB
+# NFS_Unstable:          0 kB
+# Bounce:                0 kB
+# WritebackTmp:          0 kB
+# CommitLimit:      108564 kB
+# Committed_AS:      33376 kB
+# VmallocTotal:     524280 kB
+# VmallocUsed:           0 kB
+# VmallocChunk:          0 kB
+# CmaTotal:          32768 kB
+# CmaFree:              68 kB
+# [0m
+# [32m2019-11-01 06:36:13[0m:[1;30mDEBUG[0m:[34mfreemem_check[0m:[32mFree memory from /proc/meminfo : 97376[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "System-OS_804_system_freememory_check.py", line 89, in test_freemem_check
+          self.assertLess(str(abs(memfree_diff)), free_diff_thresh, "The difference memory is not less than 200")
+      AssertionError: '728' not less than '200' : The difference memory is not less than 200
+  ...
+1..1
+
+Testscripts: WAN_9_dslmngr_showtime_connection_status.py
+TAP version 13
+not ok 1 __main__.dslmngr_tests.test_dslmngr
+# [32m2019-11-01 06:36:16[0m:[1;30mINFO[0m:[34mdslmngr[0m:setup initialized
+# [32m2019-11-01 06:36:17[0m:[1;30mDEBUG[0m:[34mdslmngr[0m:[32mHardware type : NORRLAND[0m
+# [32m2019-11-01 06:36:19[0m:[1;30mDEBUG[0m:[34mdslmngr[0m:[32mNORRLAND supports DSL[0m
+# [32m2019-11-01 06:36:19[0m:[1;30mDEBUG[0m:[34mdslmngr[0m:[32mNORRLAND supports ADSL[0m
+# [32m2019-11-01 06:36:19[0m:[1;30mDEBUG[0m:[34mdslmngr[0m:[32mNORRLAND supports VDSL[0m
+# [32m2019-11-01 06:36:19[0m:[1;30mINFO[0m:[34mdslmngr[0m:Pre-Condition : DSL cable is connected to port which is configured as VDSL
+# [32m2019-11-01 06:36:31[0m:[1;30mDEBUG[0m:[34mdslmngr[0m:[32mCurrently NORRLAND supports ADSL 0 VDSL 1[0m
+# [32m2019-11-01 06:36:33[0m:[1;30mDEBUG[0m:[34mdslmngr[0m:[32mdslmngr process is running, This testscript applicaple to continue on this board[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WAN_9_dslmngr_showtime_connection_status.py", line 130, in test_dslmngr
+          self.assertEqual(wan_port, self.dslmngr.wan_port_interface['norrland_vdsl_interface'], "Failed to fetch wan port, looks like dsl cable is not connected")
+      AssertionError: 'eth1' != 'ptm0'
+      - eth1
+      + ptm0
+       : Failed to fetch wan port, looks like dsl cable is not connected
+  ...
+1..1
+
+Testscripts: WAN_1316_network_ports_wan_speed.py
+TAP version 13
+not ok 1 __main__.wan_speed_tests.test_wan_speed
+# [32m2019-11-01 06:36:37[0m:[1;30mINFO[0m:[34mwan_speed[0m:setup initialized
+# [32m2019-11-01 06:36:37[0m:[1;30mINFO[0m:[34mwan_speed[0m:Set to default wireless config
+# [32m2019-11-01 06:37:13[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN IP Address: 10.0.2.200[0m
+# [32m2019-11-01 06:37:13[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN Interface: eth1[0m
+# [32m2019-11-01 06:37:44[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  auto[0m
+# [32m2019-11-01 06:37:45[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  auto  :  Auto-negotiated 1000 Mbps Full Duplex => (Expected : Auto-negotiated 1000 Mbps Full Duplex )[0m
+# [32m2019-11-01 06:37:46[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: auto with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:38:19[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  100FDAUTO[0m
+# [32m2019-11-01 06:38:20[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  100FDAUTO  :  Auto-negotiated 100 Mbps Full Duplex => (Expected : Auto-negotiated 100 Mbps Full Duplex )[0m
+# [32m2019-11-01 06:38:21[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 100FDAUTO with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:38:52[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  100HDAUTO[0m
+# [32m2019-11-01 06:38:53[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  100HDAUTO  :  Auto-negotiated 100 Mbps Half Duplex => (Expected : Auto-negotiated 100 Mbps Half Duplex )[0m
+# [32m2019-11-01 06:38:54[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 100HDAUTO with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:39:25[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  10FDAUTO[0m
+# [32m2019-11-01 06:39:27[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  10FDAUTO  :  Auto-negotiated 10 Mbps Full Duplex => (Expected : Auto-negotiated 10 Mbps Full Duplex )[0m
+# [32m2019-11-01 06:39:28[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 10FDAUTO with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:39:59[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  10HDAUTO[0m
+# [32m2019-11-01 06:40:00[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  10HDAUTO  :  Auto-negotiated 10 Mbps Half Duplex => (Expected : Auto-negotiated 10 Mbps Half Duplex )[0m
+# [32m2019-11-01 06:40:01[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 10HDAUTO with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:40:33[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  100FD[0m
+# [32m2019-11-01 06:40:34[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  100FD  :  Fixed 100 Mbps Full Duplex => (Expected : Fixed 100 Mbps Full Duplex )[0m
+# [32m2019-11-01 06:40:35[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 100FD with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:41:07[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  100HD[0m
+# [32m2019-11-01 06:41:09[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  100HD  :  Fixed 100 Mbps Half Duplex => (Expected : Fixed 100 Mbps Half Duplex )[0m
+# [32m2019-11-01 06:41:11[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 100HD with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:41:43[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  10FD[0m
+# [32m2019-11-01 06:41:45[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  10FD  :  Fixed 10 Mbps Full Duplex => (Expected : Fixed 10 Mbps Full Duplex )[0m
+# [32m2019-11-01 06:41:46[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 10FD with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:42:17[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  10HD[0m
+# [32m2019-11-01 06:42:18[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mUbus port status  10HD  :  Fixed 10 Mbps Half Duplex => (Expected : Fixed 10 Mbps Half Duplex )[0m
+# [32m2019-11-01 06:42:19[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mWAN interface eth1 has speed: 10HD with wan IP 10.0.2.200[0m
+# [32m2019-11-01 06:42:50[0m:[1;30mDEBUG[0m:[34mwan_speed[0m:[32mSpeed is set to :  disabled[0m
+  ---
+    message: |
+      Traceback (most recent call last):
+        File "WAN_1316_network_ports_wan_speed.py", line 97, in test_wan_speed
+          self.assertEqual(port_status_res[i]["speed"], value, "Failed to set Speed value on ubus port status ")     # Bug : 570(Broadcom) #634(Mediatek) #635(Intel)
+      AssertionError: 'Fixed 10 Mbps Half Duplex' != 'disabled'
+      - Fixed 10 Mbps Half Duplex
+      + disabled
+       : Failed to set Speed value on ubus port status
+  ...
+1..1
+
